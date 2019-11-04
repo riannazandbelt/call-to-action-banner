@@ -21,11 +21,14 @@ body {
 
 .banner-content {
   display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   width: 100%;
   left: 50%;
   transform: translateX(-50%);
   bottom: 8em;
+  top: 1em;
   max-width: 45em;
 }
 
@@ -35,7 +38,6 @@ body {
 
 h2 {
   font-size: 3rem;
-  font-weight: Condensed;
   margin-bottom: 0;
   line-height: 1;
 }
@@ -44,6 +46,7 @@ p {
   font-size: 1.5rem;
   margin: 0;
   margin-bottom: .75rem;
+  font-weight: normal;
 }
 
 .btn {
