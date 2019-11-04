@@ -1,8 +1,6 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: Roboto, sans-serif;
-  font-family: "Roboto Condensed", sans-serif;
 }
 
 *, *::before, *::after {
@@ -19,6 +17,11 @@ body {
   overflow: hidden;
 }
 
+.placeholder {
+  display: block;
+  width: 100%;
+}
+
 .banner-content {
   display: flex;
   align-items: center;
@@ -27,26 +30,35 @@ body {
   width: 100%;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 8em;
-  top: 1em;
-  max-width: 45em;
+  top: .25em;
+  max-width: 35em;
+  max-height: 500px;
+  height: 90%;
+  overflow: hidden;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+  padding-left: 1em;
 }
 
 .text {
-  padding-left: 1em;
+  padding-left: 3em;
 }
 
 h2 {
   font-size: 3rem;
-  margin-bottom: 0;
   line-height: 1;
+  font-family: "Roboto Condensed", sans-serif;
+  display: inline;
 }
 
 p {
   font-size: 1.5rem;
-  margin: 0;
-  margin-bottom: .75rem;
   font-weight: normal;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 2rem;
 }
 
 .btn {
@@ -54,9 +66,14 @@ p {
   background-color: #333;
   color: #fff;
   border: 1px solid #333;
-  border-radius: 3px;
-  padding: .25em .45em;
+  border-radius: 8px;
+  padding: .75em;
   text-decoration: none;
+  text-align: center;
+}
+
+.btn-big {
+  font-family: Roboto, sans-serif;
 }
 
 .btn:hover {
