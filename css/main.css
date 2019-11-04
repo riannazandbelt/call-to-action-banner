@@ -25,9 +25,12 @@ body {
   width: 100%;
   left: 50%;
   transform: translateX(-50%);
-  top: 75px;
-  left: 750px;
+  bottom: 8em;
   max-width: 45em;
+}
+
+.text {
+  padding-left: 1em;
 }
 
 h2 {
