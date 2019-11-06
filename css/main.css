@@ -28,28 +28,32 @@ body {
   justify-content: center;
   position: absolute;
   width: 100%;
-  left: 50%;
+  left: 47%;
   transform: translateX(-50%);
   top: .25em;
-  max-width: 35em;
+  max-width: 37em;
   max-height: 500px;
   height: 90%;
   overflow: hidden;
+  padding-bottom: 1em;
 }
 
 .img-flex {
   width: 100%;
   display: block;
-  padding-left: 1em;
+  padding-left: .5em;
+  min-width: 14em;
+  padding-bottom: 3.5em;
 }
 
 .text {
-  padding-left: 3em;
+  padding-left: 2em;
+  padding-top: 1.5em;
 }
 
 h2 {
   font-size: 3rem;
-  line-height: 1;
+  line-height: 1.25;
   font-family: "Roboto Condensed", sans-serif;
   display: inline;
 }
@@ -59,6 +63,7 @@ p {
   font-weight: normal;
   font-family: Roboto, sans-serif;
   margin-bottom: 2rem;
+  margin-top: .5rem;
 }
 
 .btn {
